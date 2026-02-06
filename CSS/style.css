@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: lightskyblue;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 70px 0;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex; 
+    gap: 20px; 
+    font-size: 20px;
+}
+nav a:hover { 
+    font-size: 22px; 
+    color: brown; 
+}
+button:hover {
+    background-color: darkgreen;
+}
+
+.contact {
+    padding: 280px 0;
+}
